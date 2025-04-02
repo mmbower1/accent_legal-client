@@ -116,8 +116,11 @@ const Landing = () => {
           </div>
         </div>
       </section>
+      <div>
+        {" "}
+        <Footer />
+      </div>
 
-      <Footer />
       {/* <Outlet /> */}
     </>
   );
