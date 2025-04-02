@@ -10,6 +10,7 @@ import Button from "../../components/button/Button";
 import { ImPriceTags } from "react-icons/im";
 import { BsBank2 } from "react-icons/bs";
 import { FaHandsHelping } from "react-icons/fa";
+import { SlGlobeAlt } from "react-icons/sl";
 
 const Landing = () => {
   const { t } = useTranslation();
@@ -24,7 +25,9 @@ const Landing = () => {
       <section className="landing">
         <div className="dark-overlay">
           <div className="landing-inner">
-            <h1 className="x-large landing-title">Accent Légal</h1>
+            <h1 className="x-large landing-title">
+              <SlGlobeAlt /> &nbsp; Accent Légal
+            </h1>
             <br />
             <br />
             <h2 id="landing-title2" className="x-large ">
@@ -59,11 +62,9 @@ const Landing = () => {
                 staff.
               </h2>
             </div>
-
             <br />
             <Button />
             <br />
-
             <br />
             <div className="options-container">
               <div className="lead">
